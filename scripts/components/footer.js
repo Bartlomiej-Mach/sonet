@@ -32,12 +32,12 @@ document.write(`
                     <div class="footer-section-content__logo-social--social">
                         <ul>
                             <li>
-                                <a href="#" target="_blank" rel="noreferrer">
+                                <a href="https://m.facebook.com/ZespolMuzycznySonet" target="_blank" rel="noreferrer">
                                     <i class="fa-brands fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" target="_blank" rel="noreferrer">
+                                <a href="https://youtube.com/channel/UCa05RIZ2VkgcNDlFbaYQd7Q" target="_blank" rel="noreferrer">
                                     <i class="fa-brands fa-youtube"></i>
                                 </a>
                             </li>
