@@ -30,19 +30,20 @@
             p {
                 margin: 20px 0 30px 0;
                 max-width: 50%;
+                display: block;
             }
         }
     }
 }
 
 @include break-point-down(md) {
-    .about-section {
+    .about-primary-section {
         padding: 40px 0 30px 0;
     }
 }
 
 @include break-point-down(mb) {
-    .about-section {
+    .about-primary-section {
         .about-section-content {
             &__text {
                 p {
