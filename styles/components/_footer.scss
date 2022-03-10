@@ -1,0 +1,101 @@
+.footer-section {
+    background-color: $grey;
+    .footer-section-content {
+        position: relative;
+        padding: 40px 0 20px 0;
+        &__back-button {
+            width: 36px;
+            height: 36px;
+            background-color: $light-pink;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            top: -18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .2s;
+            cursor: pointer;
+            i {
+                font-size: 22px;
+                color: $color-white;
+            }
+            &:hover {
+                top: -24px;
+            }
+        }
+        &__nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            ul {
+                list-style: none;
+                display: flex;
+                li {
+                    margin-right: 40px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    a {
+                        color: $color-white;
+                        font-family: $font-bebas;
+                        font-size: 2.3rem;
+                        transition: .2s;
+                        &:hover {
+                            color: $gold;
+                        }
+                    }
+                }
+            }
+        }
+        &__logo-social {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 22px;
+            align-items: center;
+            &--logo {
+                img {
+                    height: 31px;
+                }
+            }
+            &--social {
+                ul {
+                    list-style: none;
+                    display: flex;
+                    li {
+                        margin-right: 12px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        a {
+                            color: $color-white;
+                            i {
+                                font-size: 25px;
+                                transition: .2s;
+                            }
+                            &:hover i{
+                                color: $gold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__policy {
+            margin-top: 16px;
+            span {
+                font-size: 1.5rem;
+                a {
+                    color: $blue;
+                    transition: .2s;
+                    &:hover {
+                        color: $gold;
+                    }
+                }
+            }
+        }
+    }
+}

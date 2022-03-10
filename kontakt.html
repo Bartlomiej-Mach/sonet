@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonet - kontakt</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Display:wght@300&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- libra -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+<body>  
+    
+    <!-- navigation -->
+    <script src="./scripts/components/navigation.js"></script>
+
+    <header class="mini-dashboard-section" id="poczatek">
+        <div class="container-borderless">
+            <div class="dashboard-section-content">
+                <div class="dashboard-section-content--heading">
+                    <h1>
+                        kontakt
+                    </h1>
+                </div>
+                <div class="dashboard-section-content--continue-button">
+                    <a href="#informacje" >
+                        <h3>napisz teraz</h3>
+                        <div class="arrow-container">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard-section--bg-cover contact-section-img"></div>
+    </header>
+
+    <main class="contact-section">
+        <div class="container">
+            <div class="contact-section-content">
+                <div class="contact-section-content__left">
+                    <div class="contact-section-content__left--heading">
+                        <h2>znajdziesz <br> nas tutaj</h2>
+                    </div>
+                    <div class="contact-section-content__left--text">
+                        <p>
+                            Serdecznie zapraszamy do kontaktu z nami! <br> Masz może pytanie? Zadzwoń lub napisz, odpowiemy na nie z miłą chęcią!
+                        </p>
+                    </div>
+                    <div class="contact-section-content__left--contact-links">
+                        <ul>
+                            <li>
+                                <a href="tel:+48504667965">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+48 504 667 965</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:zespolsonet@interia.pl">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>zespolsonet@intera.pl</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-section-content__left--text">
+                        <p>
+                            Wpadnij na nasze social media i obserwój nasze przygody z muzyką!
+                        </p>
+                    </div>
+                    <div class="contact-section-content__left--social">
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-section-content__right">
+                    <form action="https://formsubmit.co/" method="POST">
+                        <h2>napisz teraz</h2>
+
+                        <input type="hidden" name="_next" value="https://www.prozarzadca.pl/pages/sukces">
+                        <input type="hidden" name="_subject" value="Wiadomość ze strony">
+                        <input type="text" name="_honey" style="display: none;">
+                        <input type="hidden" name="_captcha" value="false"> 
+
+                        <span class="input-name">Imię i nazwisko</span>
+                        <input type="text"  name="Imie&nbsp;i&nbsp;nazwisko" required="">
+                        <span class="input-name">Adres e-mail</span>
+                        <input type="email"  name="Adres email" required="">
+                        <span class="input-name">Telefon kontaktowy</span>
+                        <input type="tel" id="telefon" name="Telefon"  required="">
+                        <span class="input-name">Wiadomość</span>
+                        <textarea name="Wiadomosc" id="wiadomosc" required=""></textarea>
+
+                        <button type="submit">
+                            <span>wyślij</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <script src="./scripts/components/footer.js"></script>
+
+    <!-- libra -->
+    <script src="https://kit.fontawesome.com/786fc2d0ee.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/macy@2.5.0/dist/macy.min.js"></script>
+    
+    <!-- components -->
+    
+    
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+.opinion-primary-section {
+    &__content {
+        width: 100%;
+        display: flex;
+        &--left {
+            width: 50%;
+            padding: 0 16px;
+            .decoration-img {
+                width: 100%;
+            }
+        }
+        &--right {
+            width: 50%;
+            padding-left: 5%;
+            p {
+                padding: 0 16px;
+                margin-bottom: 30px;
+            }
+            .swiper {
+                
+                .swiper-wrapper {
+                    .swiper-slide {
+                        padding: 20px 16px;
+                        background-color: $blue;
+                        border-radius: 6px;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        &--stars {
+                            margin-bottom: 35px;
+                            i {
+                                font-size: 25px;
+                                margin-right: 6px;
+                                color: $gold;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                        &--opinion {
+                            position: relative;
+                            display: inline-block;
+                            &::before {
+                                content: '“';
+                                left: -10px;
+                                color: $dark-blue;
+                                position: absolute;
+                                font-family: $font-bebas;
+                                font-size: 14rem;
+                                top: 20px;
+                                z-index: -1;
+                            }
+                            &::after {
+                                content: '”';
+                                right: 0;
+                                color: $dark-blue;
+                                position: absolute;
+                                font-family: $font-bebas;
+                                font-size: 14rem;
+                                bottom: -80px;
+                                z-index: -1;
+                            }
+                        }
+                    }
+                }
+                .swiper-pagination {
+                    span {
+                        width: 12px;
+                        height: 12px;
+                        background-color: $dark-green;
+                        
+                    }
+                    .swiper-pagination-bullet-active {
+                        background-color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include break-point-down(mb) {
+    .opinion-primary-section {
+        &__content {
+            flex-direction: column;
+            &--left {
+                width: 100%;
+            }
+            &--right {
+                width: 100%;
+                padding-left: 0;
+            }
+        }
+    }
+}

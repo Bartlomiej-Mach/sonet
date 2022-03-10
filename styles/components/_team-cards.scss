@@ -1,0 +1,104 @@
+.team-cards-section {
+    padding: 50px 0;
+    .team-cards-section-content {
+        &__heading {
+            position: relative;
+            z-index: 2;
+            h2 {
+                color: $light-green;
+                text-align: right;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+        }
+        &__slider {
+            .swiper {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        height: 700px;
+                        display: flex;
+                        justify-content: flex-end;
+                        position: relative;
+                        flex-direction: column;
+                        padding: 0 0 20px 10px;
+                        .person-skills {
+                            font-size: 3.5rem;
+                            font-family: $font-noto;
+                            line-height: 3.1rem;
+                            z-index: 1;
+                        }
+                        .person-name {
+                            font-family: $font-bebas;
+                            font-size: 10rem;
+                            line-height: 9.4rem;
+                            z-index: 1;
+                        }
+                        .person-img {
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            z-index: 0;
+                            
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+
+                        }
+                        .person-1 {
+                            background-image: url('../../assets/imgs/home-page/unsplash_edChB35Hj04.png');
+                        }
+                        .person-2 {
+                            background-image: url('../../assets/imgs/home-page/unsplash_edChB35Hj04.png');
+                        }
+                        .person-3 {
+                            background-image: url('../../assets/imgs/home-page/unsplash_edChB35Hj04.png');
+                        }
+                    }
+                }
+                .swiper-pagination {
+                    span {
+                        width: 12px;
+                        height: 12px;
+                        background-color: $dark-green;
+                    }
+                    .swiper-pagination-bullet-active {
+                        background-color: $light-green;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+@include break-point-down(md) {
+    .team-cards-section {
+        padding: 40px 0;
+        .team-cards-section-content  {
+            &__slider {
+                .swiper {
+                    .swiper-wrapper  {
+                        .swiper-slide {
+                            height: 570px;
+                            .person-skills {
+                                font-size: 2.5rem;
+                                line-height: 2.2rem;
+                            }
+                            .person-name {
+                                font-size: 8rem;
+                                line-height: 7.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include break-point-down(mb) {
+    .team-cards-section {
+        padding: 0;
+    }
+}

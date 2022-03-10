@@ -1,0 +1,25 @@
+// BAISICS
+@import './breakpoints/breakpoints';
+@import './colors/colors';
+@import './typography/typography';
+@import './baisic/baisic';
+
+// ELEMENTS
+@import './elements/buttons';
+
+
+// COMPONENTS
+@import './components/navigation';
+@import './components/dashboard';
+@import './components/about-section-primary';
+@import './components/team-cards';
+@import './components/galery-section-primary';
+@import './components/opinion-section-primary';
+@import './components/contact-section-primary';
+@import './components/footer';
+@import './components/mini-dashboard';
+@import './components/information';
+@import './components/aditional-information';
+@import './components/opinions';
+@import './components/galery';
+@import './components/contact';

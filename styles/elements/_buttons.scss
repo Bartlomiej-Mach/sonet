@@ -1,0 +1,93 @@
+// styling primary button
+
+.btn-primary {
+    color: $color-white;
+    display: inline-block;
+    width: fit-content;
+    &--content {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: fit-content;
+        margin: 0;
+        .button-value {
+            font-size: 3.5rem;
+            font-weight: $font-bold;
+            font-family: $font-pt;
+            text-transform: uppercase;
+            margin-right: 1rem;
+        }
+        i {
+            font-size: 2.7rem;   
+            transition: .2s;
+        }
+    }
+    &:hover .btn-primary--content i{
+        transform: translateX(.5rem);
+    }
+}
+
+@include break-point-down(md) {
+    .btn-primary {
+        &--content {
+            .button-value {
+                font-size: 2.2rem;
+            }
+            i {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+.btn-secondary-red {
+    background-color: $strong-red;
+}
+.btn-secondary-green {
+    background-color: $deep-green;
+}
+.btn-secondary {
+    color: $color-white;
+    display: inline-block;
+    padding: 7px 60px;
+    border-radius: 5px;
+    &--content {
+        display: flex;
+        align-items: center;
+        position: relative;
+        .button-value {
+            font-size: 3.5rem;
+            font-weight: $font-bold;
+            font-family: $font-pt;
+            text-transform: uppercase;
+            margin-right: 1rem;
+        }
+        i {
+            font-size: 2.7rem;   
+            transition: .2s;
+        }
+    }
+    &:hover .btn-secondary--content i{
+        transform: translateX(.5rem);
+    }
+}
+
+@include break-point-down(md) {
+    .btn-secondary {
+        &--content {
+            .button-value {
+                font-size: 2.2rem;
+            }
+            i {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+@include break-point-down(mb) {
+    .btn-secondary {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

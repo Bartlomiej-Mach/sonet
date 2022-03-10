@@ -1,0 +1,92 @@
+.aditional-information-section {
+    .aditional-information-section-content {
+        &--heading {
+            margin-bottom: 20px;
+        }
+        &--text-single {
+            margin-bottom: 20px;
+        }
+        &--text {
+            display: flex;
+            margin-bottom: 40px;
+            p {
+                max-width: 50%;
+                &:nth-child(1) {
+                    margin-right: 20px;
+                }
+                &:nth-child(2) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    .aditional-information-section-imgs {
+        &--single {
+            width: 100%;
+            height: 500px;
+            background-image: url('../../assets/imgs/home-page/sticky2.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &--both {
+            display: flex;
+            width: 100%;
+            height: 800px;
+            &--left,
+            &--right {
+                width: 100%;
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &--left {
+                background-image: url('../../assets/imgs/home-page/sticky3.png');
+            }
+            &--right {
+                background-image: url('../../assets/imgs/home-page/sticky1.png');
+            }
+        }
+    }
+}
+@include break-point-down(mb) {
+    .aditional-information-section {
+        .aditional-information-section-content {
+            &--text {
+                flex-direction: column; 
+                p {
+                    max-width: 100%;
+                    &:nth-child(1) {
+                        margin-right: 0px;
+                        margin-bottom: 20px;
+                    }
+                    &:nth-child(2) {
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+        .aditional-information-section-imgs {
+            &--single {
+                height: 200px !important;
+            }
+            &--both {
+                height: 300px !important;
+            }
+        }
+    }
+}
+
+@include break-point-down(md) {
+    .aditional-information-section {
+        .aditional-information-section-imgs {
+            &--single {
+                height: 400px;
+            }
+            &--both {
+                height: 600px;
+            }
+        }
+    }
+}

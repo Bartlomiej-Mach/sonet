@@ -1,0 +1,80 @@
+.mini-dashboard-section {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    .dashboard-section-content {
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &--heading {
+            text-align: center;
+            h1 {
+                color: $light-pink;
+            }
+        }
+        &--continue-button {
+            position: absolute;
+            bottom: 50px;
+            a {
+                color: $color-white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3 {
+                    margin-bottom: 10px;
+                    transition: .15s;
+                }
+                .arrow-container {
+                    width: 36px;
+                    height: 36px;
+                    background-color: $light-pink;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    transition: .15s;
+                    i {
+                        font-size: 22px;
+                    }
+                }
+                &:hover .arrow-container {
+                    transform: translateY(10px);
+                }
+                &:hover h3 {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    &--bg-cover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &::after {
+            width: 100%;
+            height: 100%;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: rgba($color: $color-black, $alpha: 0.6);
+        }
+    }
+    .about-section-img {
+        background-image: url('../../assets/imgs/home-page/info.png');
+    }
+    .contact-section-img {
+        background-image: url('../../assets/imgs/home-page/contact.png');
+    }
+}

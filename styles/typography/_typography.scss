@@ -1,0 +1,97 @@
+// Sizes
+
+$font-h1-desktop-home: 15.3rem;
+$font-h1-mobile-home: 15.3rem;
+
+$font-h1-desktop: 16rem;
+$font-h1-mobile: 12rem;
+
+$font-h2-desktop: 10rem;
+$font-h2-mobile: 7rem;
+
+$font-h3-desktop: 2.3rem;
+$font-h3-mobile: 2.3rem;
+
+$font-text-desktop: 3rem;
+$font-text-mobile: 2rem;
+
+// Weight
+
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+// font family
+
+$font-bebas: 'Bebas Neue', cursive;
+$font-noto: 'Noto Serif Display', serif;
+$font-pt: 'PT Sans Narrow', sans-serif;
+
+
+// baisic typography
+html { 
+    font-size: 10px; 
+}
+
+.h1-home {
+    font-size: $font-h1-desktop-home;
+    font-weight: $font-regular;
+    font-family: $font-bebas;
+    line-height: $font-h1-desktop-home;
+    @include break-point-down(md) {
+        font-size: $font-h1-mobile-home;
+        line-height: $font-h1-mobile-home;
+    }
+}
+
+h1 {
+    font-size: $font-h1-desktop;
+    font-weight: $font-regular;
+    font-family: $font-bebas;
+    line-height: 12rem;
+    @include break-point-down(md) {
+        font-size: $font-h1-mobile;
+        line-height: 9rem;
+    }
+}
+
+h2 {
+    font-size: $font-h2-desktop;
+    font-weight: $font-regular;
+    font-family: $font-bebas;
+    line-height: 8rem;
+    @include break-point-down(md) {
+        font-size: $font-h2-mobile;
+        line-height: 6rem;
+    }
+}
+
+h3 {
+    font-size: $font-h3-desktop;
+    font-weight: $font-bold;
+    font-family: $font-bebas;
+    @include break-point-down(md) {
+        font-size: $font-h3-mobile;
+    }
+}
+
+p,
+span {
+    font-family: $font-pt;
+    font-weight: $font-regular;
+    font-size: $font-text-desktop;
+    @include break-point-down(md) {
+        font-size: $font-text-mobile;
+    }
+}
+p {
+    line-height: $font-text-desktop;;
+    @include break-point-down(md) {
+        line-height: $font-text-mobile;
+    }
+}
+
+a {
+    text-decoration: none;
+    
+}
