@@ -2,7 +2,7 @@
     width: 100%;
     &__heading-img {
         width: 100%;
-        background-image: url('../../assets/imgs/home-page/info.png');
+        background-image: url('../../assets/imgs/home-page/galery.jpg');
         background-position: center;
         background-size: cover;
         padding: 90px 0;
@@ -14,7 +14,7 @@
             position: absolute;
             left: 0;
             top: 0;
-            background-color: rgba($color: $color-black, $alpha: 0.6);
+            background-color: rgba($color: $color-black, $alpha: 0.1);
         }
         .galery-heading {
             color: $pink;

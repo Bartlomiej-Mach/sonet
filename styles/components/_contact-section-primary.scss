@@ -31,10 +31,19 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-image: url("../../assets/imgs/home-page/contact.png");
+        background-image: url("../../assets/imgs/home-page/contact.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        &::after {
+            width: 100%;
+            height: 100%;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: rgba($color: $color-black, $alpha: 0.1);
+        }
     }
 }
 

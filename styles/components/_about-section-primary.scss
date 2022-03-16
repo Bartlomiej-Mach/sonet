@@ -1,7 +1,8 @@
 .about-primary-section {
     width: 100%;
-    background-image: url('../../assets/imgs/home-page/info.png');
+    background-image: url('../../assets/imgs/home-page/info.jpg');
     background-position: center;
+    background-position-y: -30px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 0 30px 0;
@@ -13,7 +14,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        background-color: rgba($color: $color-black, $alpha: 0.6);
+        background-color: rgba($color: $color-black, $alpha: 0.3);
     }
     .about-section-content {
         z-index: 1;
@@ -39,6 +40,7 @@
 @include break-point-down(md) {
     .about-primary-section {
         padding: 40px 0 30px 0;
+        background-position-y: center;
     }
 }
 
