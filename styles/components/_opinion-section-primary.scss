@@ -12,6 +12,7 @@
         &--right {
             width: 50%;
             padding-left: 5%;
+            padding-right: 16px;
             p {
                 padding: 0 16px;
                 margin-bottom: 30px;
@@ -28,7 +29,7 @@
                         justify-content: center;
                         flex-direction: column;
                         &--stars {
-                            margin-bottom: 35px;
+                            margin-bottom: 15px;
                             i {
                                 font-size: 25px;
                                 margin-right: 6px;
@@ -41,25 +42,12 @@
                         &--opinion {
                             position: relative;
                             display: inline-block;
-                            &::before {
-                                content: '“';
-                                left: -10px;
-                                color: $dark-blue;
-                                position: absolute;
-                                font-family: $font-bebas;
-                                font-size: 14rem;
-                                top: 20px;
-                                z-index: -1;
-                            }
-                            &::after {
-                                content: '”';
-                                right: 0;
-                                color: $dark-blue;
-                                position: absolute;
-                                font-family: $font-bebas;
-                                font-size: 14rem;
-                                bottom: -80px;
-                                z-index: -1;
+                            padding: 0;
+                        }
+                        &--name {
+                            margin-bottom: 15px;
+                            span {
+                                font-size: 2.3rem;
                             }
                         }
                     }
@@ -90,6 +78,7 @@
             &--right {
                 width: 100%;
                 padding-left: 0;
+                padding-right: 0;
             }
         }
     }

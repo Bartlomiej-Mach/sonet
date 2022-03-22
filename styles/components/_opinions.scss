@@ -15,7 +15,7 @@
                         justify-content: center;
                         flex-direction: column;
                         &--stars {
-                            margin-bottom: 35px;
+                            margin-bottom: 15px;
                             i {
                                 font-size: 25px;
                                 margin-right: 6px;
@@ -29,6 +29,12 @@
                             position: relative;
                             display: inline-block;
                             
+                        }
+                        &--name {
+                            margin-bottom: 15px;
+                            span {
+                                font-size: 2.3rem;
+                            }
                         }
                     }
                 }
