@@ -80,3 +80,21 @@
         background-image: url('../../assets/imgs/home-page/galery.jpg');
     }
 }
+
+@include break-point-down(md) {
+    .mini-dashboard-section {
+        height: 600px;
+        .dashboard-section-content {
+            height: 600px;
+        }
+    }   
+}
+
+@include break-point-down(mb) {
+    .mini-dashboard-section {
+        height: 480px;
+        .dashboard-section-content {
+            height: 480px;
+        }
+    }   
+}
