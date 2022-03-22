@@ -1,7 +1,7 @@
 .about-primary-section {
     width: 100%;
     background-image: url('../../assets/imgs/home-page/info.jpg');
-    background-position: center;
+    background-position: center top;
     background-position-y: -30px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@
 @include break-point-down(md) {
     .about-primary-section {
         padding: 40px 0 30px 0;
-        background-position-y: center;
+        background-position-y: center top;
     }
 }
 
