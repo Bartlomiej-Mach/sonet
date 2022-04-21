@@ -779,11 +779,11 @@ body, html {
 }
 
 .galery-primary-section .galery-content .sticky-imgs__left--top {
-  background-image: url("../../assets/imgs/home-page/sticky2.png");
+  background-image: url("../../assets/imgs/home-page/sticky2.jpg");
 }
 
 .galery-primary-section .galery-content .sticky-imgs__left--bottom {
-  background-image: url("../../assets/imgs/home-page/sticky3.png");
+  background-image: url("../../assets/imgs/home-page/sticky3.jpg");
 }
 
 .galery-primary-section .galery-content .sticky-imgs__right {
@@ -797,7 +797,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../assets/imgs/home-page/sticky1.png");
+  background-image: url("../../assets/imgs/home-page/sticky1.jpg");
 }
 
 .galery-primary-section .galery-content .single-img {
@@ -806,7 +806,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../assets/imgs/home-page/sticky2.png");
+  background-image: url("../../assets/imgs/home-page/sticky4.jpg");
 }
 
 .galery-primary-section .galery-additional-info {
