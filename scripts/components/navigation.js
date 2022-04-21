@@ -3,7 +3,7 @@ document.write(`
 <div class="container">
     <div class="navigation-section__content">
         <div class="navigation-section__content--logo">
-            <a href="./index.html" class="logo">
+            <a href="./index" class="logo">
                 <img src="./assets/svg/logo/logo-hat.svg" alt="comapny-logo">
             </a>
         </div>
@@ -23,16 +23,16 @@ document.write(`
     <div class="list-container">
         <ul class="nav-list">
             <li>
-                <a href="./index.html" class="nav-link">home</a>
+                <a href="./index" class="nav-link">home</a>
             </li>
             <li>
-                <a href="./o-nas.html" class="nav-link">o nas</a>
+                <a href="./o-nas" class="nav-link">o nas</a>
             </li>
             <li>
-                <a href="./galeria.html" class="nav-link">galeria</a>
+                <a href="./galeria" class="nav-link">galeria</a>
             </li>
             <li>
-                <a href="./kontakt.html" class="nav-link">kontakt</a>
+                <a href="./kontakt" class="nav-link">kontakt</a>
             </li>
         </ul>
     </div>

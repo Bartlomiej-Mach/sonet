@@ -10,16 +10,16 @@ document.write(`
 
                     <ul>
                         <li>
-                            <a href="./index.html">home</a>
+                            <a href="./index">home</a>
                         </li>
                         <li>
-                            <a href="./o-nas.html">o nas</a>
+                            <a href="./o-nas">o nas</a>
                         </li>
                         <li>
-                            <a href="./galeria.html">galeria</a>
+                            <a href="./galeria">galeria</a>
                         </li>
                         <li>
-                            <a href="./kontakt.html">kontakt</a>
+                            <a href="./kontakt">kontakt</a>
                         </li>
                     </ul>
 
