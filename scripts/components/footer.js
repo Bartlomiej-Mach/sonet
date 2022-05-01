@@ -13,7 +13,7 @@ document.write(`
                             <a href="./index">home</a>
                         </li>
                         <li>
-                            <a href="./o-nas">o nas</a>
+                            <a href="./oferta">oferta</a>
                         </li>
                         <li>
                             <a href="./galeria">galeria</a>
@@ -37,7 +37,7 @@ document.write(`
                                 </a>
                             </li>
                             <li>
-                                <a href="https://youtube.com/channel/UCa05RIZ2VkgcNDlFbaYQd7Q" target="_blank" rel="noreferrer">
+                                <a href="https://www.youtube.com/channel/UCa05RIZ2VkgcNDlFbaYQd7Q/videos" target="_blank" rel="noreferrer">
                                     <i class="fa-brands fa-youtube"></i>
                                 </a>
                             </li>

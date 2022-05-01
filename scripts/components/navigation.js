@@ -26,7 +26,7 @@ document.write(`
                 <a href="./index" class="nav-link">home</a>
             </li>
             <li>
-                <a href="./o-nas" class="nav-link">o nas</a>
+                <a href="./oferta" class="nav-link">oferta</a>
             </li>
             <li>
                 <a href="./galeria" class="nav-link">galeria</a>
