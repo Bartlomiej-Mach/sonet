@@ -20,10 +20,11 @@
         i {
             font-size: 2.7rem;   
             transition: .2s;
+            transform: translateY(3px);
         }
     }
     &:hover .btn-primary--content i{
-        transform: translateX(.5rem);
+        transform: translateX(.5rem) translateY(3px);
     }
 }
 
@@ -35,6 +36,7 @@
             }
             i {
                 font-size: 2rem;
+                transform: translateY(1px);
             }
         }
     }

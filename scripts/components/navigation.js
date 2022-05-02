@@ -34,6 +34,9 @@ document.write(`
             <li>
                 <a href="./kontakt" class="nav-link">kontakt</a>
             </li>
+            <li>
+                <a href="./polecamy" class="nav-link">polecamy</a>
+            </li>
         </ul>
     </div>
 </div>

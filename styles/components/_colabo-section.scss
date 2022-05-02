@@ -1,0 +1,47 @@
+.colabo-section {
+    .colabo-section-content {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        &__floor {
+            display: flex;
+            justify-content: center;
+            &--col {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                padding: 24px;
+                height: 334px;
+                &--name {
+                    display: flex;
+                    flex-direction: column;
+                    .name {
+                        font-family: $font-bebas;
+                        font-size: 7rem;
+                    }
+                }
+
+            }
+            .col1 {
+                background-color: #6CB25A;
+            }
+            .col2 {
+                background-color: #4884BB;
+            }
+            .col3 {
+                background-color: #4A34CE;
+            }
+            .col4 {
+                background-color: #88248A;
+            }   
+            .col5 {
+                background-color: #A43959;
+            }
+            .col6 {
+                background-color: #9A8F2E;
+            }
+        }
+    }
+}
