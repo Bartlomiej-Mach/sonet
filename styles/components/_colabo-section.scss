@@ -45,3 +45,37 @@
         }
     }
 }
+
+@include break-point-down(md) {
+    .colabo-section {
+        .colabo-section-content {
+            &__floor {
+                flex-direction: column;
+                &--col {
+                    width: 100%;
+                    height: 100%;
+                    padding: 15px 10px;
+                    .name {
+                        margin-top: 20px;
+                        font-size: 5rem;
+                        line-height: 4.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include break-point-down(mb) {
+    .colabo-section {
+        .colabo-section-content {
+            &__floor {
+                &--col {
+                    .width-100 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

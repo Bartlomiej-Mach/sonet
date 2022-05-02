@@ -1841,4 +1841,29 @@ body, html {
 .colabo-section .colabo-section-content__floor .col6 {
   background-color: #9A8F2E;
 }
+
+@media (max-width: 1100px) {
+  .colabo-section .colabo-section-content__floor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .colabo-section .colabo-section-content__floor--col {
+    width: 100%;
+    height: 100%;
+    padding: 15px 10px;
+  }
+  .colabo-section .colabo-section-content__floor--col .name {
+    margin-top: 20px;
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width: 743px) {
+  .colabo-section .colabo-section-content__floor--col .width-100 {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
