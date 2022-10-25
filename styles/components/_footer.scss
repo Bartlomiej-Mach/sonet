@@ -66,6 +66,21 @@
                     list-style: none;
                     display: flex;
                     li {
+                        &:nth-child(1) {
+                            a {
+                                color: #3b5998;
+                            }
+                        }
+                        &:nth-child(2) {
+                            a {
+                                color: #c4302b;
+                            }
+                        }
+                        &:nth-child(3) {
+                            a {
+                                color: #fff;
+                            }
+                        }
                         margin-right: 12px;
                         &:last-child {
                             margin-right: 0;
